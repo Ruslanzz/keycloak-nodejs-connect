@@ -47,10 +47,10 @@
             "enabled": true,
             "publicClient": true,
             "baseUrl": "/",
-            "adminUrl" : "http://localhost:3000/",
-            "baseUrl" : "http://localhost:3000/",
+            "adminUrl" : "http://localhost:8888/",
+            "baseUrl" : "http://localhost:8888/",
             "redirectUris": [
-                "http://localhost:3000/*"
+                "http://localhost:8888/*"
             ],
             "webOrigins": []
         },
@@ -59,10 +59,10 @@
             "enabled": true,
             "secret": "secret",
             "redirectUris": [
-              "http://localhost:3000/*"
+              "http://localhost:8888/*"
             ],
             "webOrigins": [
-              "http://localhost:3000/*"
+              "http://localhost:8888/*"
             ],
             "serviceAccountsEnabled": true,
             "authorizationServicesEnabled": true,
